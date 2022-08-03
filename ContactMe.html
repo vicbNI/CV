@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- mdn forms button,checkbox,color,date, datetime-local, email, file, hidden, image, month,number, password -->
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Contact me</h3>
+    <p>Mobile - 007788994455</p>
+    <p>Email - vic@vic.com </p>
+    <hr>
+    <!-- action what should happen when you click submit mail to email-->
+<form action="mailto:info@me.com" method="post" enctype="text/plain"><!--ENC AVOIDS %$ IN TEXT EMAIL-->
+  <label>Your Name</label>
+  <input type="text" name="YOUR NAME" value=""> <br>
+  <label>Your Email </label>
+  <input type="email" name="YOUR EMAIL" value="">
+  <!-- WILL VALIDATE PLEASE ENTER @.COM -->
+  <br>
+<label>Your Message</label><br>
+<!-- rows how tall, columns how wide-->
+<textarea name="YOUR MESSAGE" rows="10" cols="30"></textarea><br>
+  <input type="submit" name="" ><br>
+</form>
+
+  </body>
+</html>
